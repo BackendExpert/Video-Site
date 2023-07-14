@@ -4,7 +4,7 @@
     <style>
         .home-content{
             background-image: url(https://wallpaperaccess.com/full/2140.jpg);
-            width: 100vh
+            height: 100vh;
             
         }
     </style>
@@ -35,15 +35,16 @@
             @endif            
         </div> --}}
 
-        <div class="container">
+
             {{-- All Videoss
             <a href="{{ route('login') }}">login here</a> --}}
 
             <div class="home-content">
-
+                <div class="container">
+                    div
+                </div>
             </div>
 
-        </div>
 
     </body>
 </html>
