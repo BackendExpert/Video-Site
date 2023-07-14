@@ -52,7 +52,7 @@
                 <div class="footer-body">
                     <ul>
                         <li>
-                            <i></i>
+                            <i class="fas fa-mobile-alt"></i> +94 711758851
                         </li>
                     </ul>
                 </div>
