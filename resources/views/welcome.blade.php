@@ -37,7 +37,13 @@
         }
         .one-video{
             margin: 15px 0;
-            background: black;
+            background: rgb(36, 36, 36);
+            padding: 25px;
+            transition: 0.5s;
+        }
+        .one-video:hover{
+            margin: 0 -15px;
+            border: 1px solid white;
         }
         .view-video{
             border-radius: 5px;
