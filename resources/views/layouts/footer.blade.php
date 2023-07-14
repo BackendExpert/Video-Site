@@ -1,7 +1,7 @@
 <style>
     .footer{
-        margin: 30px 0;
-        background: rgb(54, 54, 54);
+        padding: 30px 0;
+        background: rgb(29, 29, 29);
     }
     .footer-head{
         font-size: 30px;
