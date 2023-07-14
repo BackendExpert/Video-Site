@@ -21,7 +21,8 @@
                     About
                 </div>
                 <div class="footer-body">
-                    The Video Site System is developed of 
+                    The Video Site System is developed of educational purposes only. <br>
+                    <b>Developed By: <a href="https://github.com/JehanKandy" target="_blank">JehanKandy</a></b>
                 </div>
             </div>
             <div class="col-lg-4">
