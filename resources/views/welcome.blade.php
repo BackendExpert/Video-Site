@@ -76,7 +76,7 @@
                             <div class="row">
                                 <div class="col-lg-5">
                                     <video width="400" controls>
-                                        <source src="{{ URL::asset("$video->video") }}" type="video/mp4">
+                                        <source src="{{ URL::asset("$vid->video") }}" type="video/mp4">
                                         Your browser does not support HTML video.
                                     </video>
                                 </div>
