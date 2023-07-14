@@ -54,6 +54,15 @@
                         <li>
                             <i class="fas fa-mobile-alt"></i> +94 711758851
                         </li>
+                        <li>
+                            <i class="fas fa-mail-bulk"></i>jehankandy@gmail.com
+                        </li>
+                        <li>
+                            <a href="" target="_blank"><i></i> github.com/JehanKandy</a>
+                        </li>
+                        <li>
+                            <a href="" target="_blank"><i></i> github.com/BackendExpert</a>
+                        </li>
                     </ul>
                 </div>
             </div>
