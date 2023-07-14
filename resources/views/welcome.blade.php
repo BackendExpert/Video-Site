@@ -10,6 +10,22 @@
             background-size: cover;
             color: white;            
         }
+        .home-title{
+            padding: 35px 0;
+            text-align: center;
+        }
+        .home-title h3{
+            padding: 15px 0;
+            font-size: 40px;
+        }
+        .home-title .home-login{
+            padding: 10px 30px;
+            font-size: 22px;
+            border-radius: 5px;
+            border:1px solid white;
+            background: transparent;
+            
+        }
     </style>
 
     <body class="antialiased">
@@ -44,8 +60,10 @@
 
             <div class="home-content">
                 <div class="container">
-                    Welcome to Video Site
-                    <a href="{{ route('login') }}"><button class="home-login">Login Here</button></a>
+                    <div class="home-title">
+                        <h3>Welcome to Video Site</h3>
+                        <a href="{{ route('login') }}"><button class="home-login">Login Here</button></a>
+                    </div>
                 </div>
             </div>
 
