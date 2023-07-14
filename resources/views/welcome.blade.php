@@ -110,7 +110,7 @@
                                             $vid_tags = json_decode($vid->video_tags);
                                         @endphp
                                         @foreach ($vid_tags as $tags)
-                                            <span class="tags">{{ $tags }}</span>
+                                            <span class="tags">{{ $tags }}</span><br>
                                         @endforeach
                                     </div>
                                 </div>
