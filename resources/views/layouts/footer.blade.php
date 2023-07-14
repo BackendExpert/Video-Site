@@ -19,6 +19,7 @@
         text-decoration: none;
         color: white;
     }
+
 </style>
 
 <footer class="footer">
