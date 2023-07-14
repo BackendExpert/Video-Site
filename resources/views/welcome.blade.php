@@ -50,6 +50,12 @@
         .view-video{
             border-radius: 5px;
         }
+        .tags{
+            padding: 5px 10px;
+            background-color: rgb(74, 172, 218);
+            border-radius: 5px;
+            color: white;
+        }
     </style>
 
     <body class="antialiased">
