@@ -21,7 +21,7 @@
                     About
                 </div>
                 <div class="footer-body">
-
+                    The Video Site System is developed of 
                 </div>
             </div>
             <div class="col-lg-4">
