@@ -36,7 +36,7 @@
             padding: 20px 0;
         }
         .one-video{
-            
+            padding: 15px 0;
         }
     </style>
 
