@@ -72,7 +72,9 @@
                     </div>
                     <hr>
                     <div class="home-body">
-                        all videos
+                        @foreach ($video as $vid)
+                            
+                        @endforeach
                     </div>
                 </div>
             </div>
