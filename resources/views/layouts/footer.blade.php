@@ -64,7 +64,7 @@
                             <a href="https://github.com/BackendExpert" target="_blank"><i class="fab fa-github-alt"></i> github.com/BackendExpert</a>
                         </li>
                         <li>
-                            <i class="fab fa-github-alt"></i>Kandy, Sri Lanka</a>
+                            <i class="fas fa-map-marker-alt"></i>Kandy, Sri Lanka</a>
                         </li>
                     </ul>
                 </div>
