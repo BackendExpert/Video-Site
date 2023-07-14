@@ -36,7 +36,8 @@
             padding: 20px 0;
         }
         .one-video{
-            padding: 15px 0;
+            margin: 15px 0;
+            background: black;
         }
         .view-video{
             border-radius: 5px;
