@@ -100,18 +100,17 @@
                                         </video>
                                     </div>
                                     <div class="col-lg-8">
-                                        <h3>{{ $vid->video_title }}</h3>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-lg-4"></div>
-                                    <div class="col-lg-8">
                                         @php
                                             $vid_tags = json_decode($vid->video_tags);
                                         @endphp
                                         @foreach ($vid_tags as $tags)
                                             <span class="tags">{{ $tags }}</span>
                                         @endforeach
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <h2>{{ $vid-> }}</h2>
                                     </div>
                                 </div>
                             </div>
