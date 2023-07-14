@@ -20,12 +20,12 @@
             </div>
             <div class="col-lg-4">
                 <div class="footer-head">
-                    
+                    Features 
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="footer-head">
-                    About
+                    Contact Us
                 </div>
             </div>
         </div>
