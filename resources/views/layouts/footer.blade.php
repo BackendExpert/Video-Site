@@ -72,5 +72,8 @@
             </div>
         </div>
         <hr>
+        <center>
+            <i class="far fa-copyright"></i><a href="" target="_blank">The Video Site System</a>
+        </center>
     </div>
 </footer>
