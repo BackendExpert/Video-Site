@@ -74,7 +74,7 @@
         </div>
         <hr>
         <center>
-            <i class="far fa-copyright"></i><a href="https://github.com/BackendExpert/Video-Site" target="_blank" style="color:white;">The Video Site System</a> | Developed by <a href="https://github.com/JehanKandy" target="_blank" style="color:white;">JehanKandy</a> and <a href="https://github.com/BackendExpert" target="_blank">BackendExpert</a> | All Rights Reserved
+            <i class="far fa-copyright"></i><a href="https://github.com/BackendExpert/Video-Site" target="_blank" style="color:white;">The Video Site System</a> | Developed by <a href="https://github.com/JehanKandy" target="_blank" style="color:white;">JehanKandy</a> and <a href="https://github.com/BackendExpert" target="_blank" style="color:white;">BackendExpert</a> | All Rights Reserved
         </center>
     </div>
 </footer>
