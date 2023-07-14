@@ -14,6 +14,10 @@
     .footer-body li{
         list-style-type: none;
     }
+    .footer-body a{
+        text-decoration: none;
+        color: white;
+    }
 </style>
 
 <footer class="footer">
