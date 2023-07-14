@@ -25,6 +25,7 @@
             border:1px solid white;
             background: transparent;
             transition: 0.5s;
+            color: white
         }
         .home-title .home-login:hover{
             cursor: pointer;
