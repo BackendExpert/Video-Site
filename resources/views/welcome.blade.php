@@ -70,6 +70,10 @@
                         <h3>Welcome to Video Site</h3>
                         <a href="{{ route('login') }}"><button class="home-login">Login Here</button></a>
                     </div>
+                    <hr>
+                    <div class="home-body">
+                        all videos
+                    </div>
                 </div>
             </div>
 
