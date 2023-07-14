@@ -32,6 +32,9 @@
             background: white;
             color: black;
         }
+        .home-body{
+            padding: 20px 0;
+        }
     </style>
 
     <body class="antialiased">
