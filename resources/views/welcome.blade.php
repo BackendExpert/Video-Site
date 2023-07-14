@@ -1,6 +1,14 @@
 
     @include('header')
 
+    <style>
+        .home-content{
+            background-image: url(https://wallpaperaccess.com/full/2140.jpg);
+            width: 100vh
+            
+        }
+    </style>
+
     <body class="antialiased">
         {{-- <div class="relative sm:flex sm:justify-center sm:items-center min-h-screen bg-dots-darker bg-center bg-gray-100 dark:bg-dots-lighter dark:bg-gray-900 selection:bg-red-500 selection:text-white">
             @if (Route::has('login'))
@@ -30,6 +38,11 @@
         <div class="container">
             {{-- All Videoss
             <a href="{{ route('login') }}">login here</a> --}}
+
+            <div class="home-content">
+
+            </div>
+
         </div>
 
     </body>
