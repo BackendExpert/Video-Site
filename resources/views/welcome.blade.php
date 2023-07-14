@@ -110,7 +110,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-lg-12">
-                                        <h2>{{ $vid-> }}</h2>
+                                        <h2>{{ $vid->video_title }}</h2>
                                     </div>
                                 </div>
                             </div>
