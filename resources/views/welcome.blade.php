@@ -106,7 +106,12 @@
                                 <div class="row">
                                     <div class="col-lg-4"></div>
                                     <div class="col-lg-8">
-                                        
+                                        @php
+                                            $vid_tags = json_decode($vid->video_tags);
+                                        @endphp
+                                        @foreach ($vid_tags as $tags)
+                                            <span class="tags">{{ $tags }}</span>
+                                        @endforeach
                                     </div>
                                 </div>
                             </div>
