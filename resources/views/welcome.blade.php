@@ -87,7 +87,9 @@
                                             Your browser does not support HTML video.
                                         </video>
                                     </div>
-                                    <div class="col-lg-7"></div>
+                                    <div class="col-lg-7">
+                                        {{ $vid->video_title }}
+                                    </div>
                                 </div>
                             </div>
                         @endforeach
