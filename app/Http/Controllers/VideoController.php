@@ -104,4 +104,8 @@ class VideoController extends Controller
         $video->delete();
         return back();
     }
+
+    public function all_videos(){
+        
+    }
 }
