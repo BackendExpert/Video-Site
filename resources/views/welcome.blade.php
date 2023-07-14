@@ -38,6 +38,9 @@
         .one-video{
             padding: 15px 0;
         }
+        .view-video{
+            border-radius: 5px;
+        }
     </style>
 
     <body class="antialiased">
@@ -81,14 +84,14 @@
                         @foreach ($video as $vid)
                             <div class="one-video">
                                 <div class="row">
-                                    <div class="col-lg-5">
-                                        <video width="400">
+                                    <div class="col-lg-4">
+                                        <video width="400" class="view-video">
                                             <source src="{{ URL::asset("$vid->video") }}" type="video/mp4">
                                             Your browser does not support HTML video.
                                         </video>
                                     </div>
-                                    <div class="col-lg-7">
-                                        {{ $vid->video_title }}
+                                    <div class="col-lg-8">
+                                        <h3>{{ $vid->video_title }}</h3>
                                     </div>
                                 </div>
                             </div>
