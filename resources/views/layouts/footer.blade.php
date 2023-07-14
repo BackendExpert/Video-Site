@@ -1,4 +1,13 @@
-
+<style>
+    .footer{
+        margin: 30px 0;
+        background: rgb(54, 54, 54);
+    }
+    .footer-head{
+        font-size: 30px;
+        font-weight: 500;
+    }
+</style>
 
 <footer class="footer">
     <div class="container">
