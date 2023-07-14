@@ -31,10 +31,11 @@
                 </div>
                 <div class="footer-body">
                     <ul>
-                        <li><a href="">Features 1</a></li>
-                        <li><a href="">Features 2</a></li>
-                        <li><a href="">Features 3</a></li>
-                        <li><a href="">Features 4</a></li>
+                        <li><a href=""><i class="fas fa-arrow-right"></i> Features 1</a></li>
+                        <li><a href=""><i class="fas fa-arrow-right"></i> Features 2</a></li>
+                        <li><a href=""><i class="fas fa-arrow-right"></i> Features 3</a></li>
+                        <li><a href=""><i class="fas fa-arrow-right"></i> Features 4</a></li>
+
                     </ul>
                 </div>
             </div>
