@@ -5,6 +5,9 @@
         .home-content{
             background-image: url(https://wallpaperaccess.com/full/2140.jpg);
             height: 100vh;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
             
         }
     </style>
