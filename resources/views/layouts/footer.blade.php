@@ -58,10 +58,10 @@
                             <i class="fas fa-mail-bulk"></i>jehankandy@gmail.com
                         </li>
                         <li>
-                            <a href="" target="_blank"><i></i> github.com/JehanKandy</a>
+                            <a href="https://github.com/JehanKandy" target="_blank"><i></i> github.com/JehanKandy</a>
                         </li>
                         <li>
-                            <a href="" target="_blank"><i></i> github.com/BackendExpert</a>
+                            <a href="https://github.com/BackendExpert" target="_blank"><i></i> github.com/BackendExpert</a>
                         </li>
                     </ul>
                 </div>
