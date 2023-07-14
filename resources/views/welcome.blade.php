@@ -35,6 +35,9 @@
         .home-body{
             padding: 20px 0;
         }
+        .one-video{
+            
+        }
     </style>
 
     <body class="antialiased">
@@ -76,14 +79,16 @@
                     <hr>
                     <div class="home-body">
                         @foreach ($video as $vid)
-                            <div class="row">
-                                <div class="col-lg-5">
-                                    <video width="400">
-                                        <source src="{{ URL::asset("$vid->video") }}" type="video/mp4">
-                                        Your browser does not support HTML video.
-                                    </video>
+                            <div class="one-video">
+                                <div class="row">
+                                    <div class="col-lg-5">
+                                        <video width="400">
+                                            <source src="{{ URL::asset("$vid->video") }}" type="video/mp4">
+                                            Your browser does not support HTML video.
+                                        </video>
+                                    </div>
+                                    <div class="col-lg-7"></div>
                                 </div>
-                                <div class="col-lg-7"></div>
                             </div>
                         @endforeach
                     </div>
