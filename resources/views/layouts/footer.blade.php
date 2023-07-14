@@ -11,6 +11,9 @@
     .footer-body{
         padding: 20px 10px;
     }
+    .footer-body li{
+        list-style-type: none;
+    }
 </style>
 
 <footer class="footer">
@@ -35,7 +38,6 @@
                         <li><a href=""><i class="fas fa-arrow-right"></i> Features 2</a></li>
                         <li><a href=""><i class="fas fa-arrow-right"></i> Features 3</a></li>
                         <li><a href=""><i class="fas fa-arrow-right"></i> Features 4</a></li>
-
                     </ul>
                 </div>
             </div>
