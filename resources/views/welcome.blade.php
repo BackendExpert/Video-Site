@@ -45,7 +45,7 @@
             <div class="home-content">
                 <div class="container">
                     Welcome to Video Site
-                    <a href="{{ route('login') }}"><button class="login-btn">Login Here</button></a>
+                    <a href="{{ route('login') }}"><button class="home-login">Login Here</button></a>
                 </div>
             </div>
 
