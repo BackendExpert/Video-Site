@@ -75,7 +75,10 @@
                         @foreach ($video as $vid)
                             <div class="row">
                                 <div class="col-lg-5">
-                                    {{ $video-> }}
+                                    <video width="400" controls>
+                                        <source src="{{ URL::asset("$video->video") }}" type="video/mp4">
+                                        Your browser does not support HTML video.
+                                    </video>
                                 </div>
                                 <div class="col-lg-7"></div>
                             </div>
