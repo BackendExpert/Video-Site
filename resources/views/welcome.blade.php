@@ -8,7 +8,7 @@
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
-            
+            color: white;            
         }
     </style>
 
@@ -44,7 +44,7 @@
 
             <div class="home-content">
                 <div class="container">
-                    div
+                    Welcome to Video Site
                 </div>
             </div>
 
