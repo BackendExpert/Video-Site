@@ -49,6 +49,13 @@
                 <div class="footer-head">
                     Contact Us
                 </div>
+                <div class="footer-body">
+                    <ul>
+                        <li>
+                            <i></i>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
