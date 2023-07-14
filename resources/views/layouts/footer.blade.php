@@ -8,6 +8,9 @@
         font-size: 30px;
         font-weight: 500;
     }
+    .footer-body{
+        padding: 20px 10px;
+    }
 </style>
 
 <footer class="footer">
@@ -16,6 +19,9 @@
             <div class="col-lg-4">
                 <div class="footer-head">
                     About
+                </div>
+                <div class="footer-body">
+
                 </div>
             </div>
             <div class="col-lg-4">
