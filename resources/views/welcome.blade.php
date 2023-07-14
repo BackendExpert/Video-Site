@@ -73,7 +73,12 @@
                     <hr>
                     <div class="home-body">
                         @foreach ($video as $vid)
-                            
+                            <div class="row">
+                                <div class="col-lg-5">
+                                    {{ $video-> }}
+                                </div>
+                                <div class="col-lg-7"></div>
+                            </div>
                         @endforeach
                     </div>
                 </div>
