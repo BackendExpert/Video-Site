@@ -44,6 +44,7 @@
         .one-video:hover{
             margin: 0 -15px;
             border: 1px solid white;
+            background: rgb(49, 49, 49);
         }
         .view-video{
             border-radius: 5px;
