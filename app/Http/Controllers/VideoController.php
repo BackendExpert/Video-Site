@@ -106,6 +106,7 @@ class VideoController extends Controller
     }
 
     public function all_videos(){
-        
+        $video = VideoM::all();        
+        return view('welcome', compact('video'));
     }
 }
