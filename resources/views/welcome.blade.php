@@ -48,6 +48,6 @@
                 </div>
             </div>
 
-
+            @include('header')
     </body>
 </html>
