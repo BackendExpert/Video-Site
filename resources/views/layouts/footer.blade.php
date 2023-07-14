@@ -13,6 +13,7 @@
     }
     .footer-body li{
         list-style-type: none;
+        padding: 5px 0;
     }
     .footer-body a{
         text-decoration: none;
@@ -55,7 +56,7 @@
                             <i class="fas fa-mobile-alt"></i> +94 711758851
                         </li>
                         <li>
-                            <i class="fas fa-mail-bulk"></i>jehankandy@gmail.com
+                            <i class="fas fa-mail-bulk"></i> jehankandy@gmail.com
                         </li>
                         <li>
                             <a href="https://github.com/JehanKandy" target="_blank"><i class="fab fa-github-alt"></i> github.com/JehanKandy</a>
