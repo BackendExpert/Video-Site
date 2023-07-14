@@ -24,7 +24,12 @@
             border-radius: 5px;
             border:1px solid white;
             background: transparent;
-            
+            transition: 0.5s;
+        }
+        .home-title .home-login:hover{
+            cursor: pointer;
+            background: white;
+            color: black;
         }
     </style>
 
