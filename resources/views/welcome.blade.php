@@ -40,6 +40,7 @@
             background: rgb(36, 36, 36);
             padding: 25px;
             transition: 0.5s;
+            border-radius: 8px;
         }
         .one-video:hover{
             margin: 0 -15px;
@@ -100,6 +101,12 @@
                                     </div>
                                     <div class="col-lg-8">
                                         <h3>{{ $vid->video_title }}</h3>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-4"></div>
+                                    <div class="col-lg-8">
+                                        
                                     </div>
                                 </div>
                             </div>
