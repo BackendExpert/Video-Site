@@ -97,7 +97,15 @@
                             <h3>Welcome to back</h3>
                             <a href="
                                 @php
-                                    
+                                    if(auth()->user()->role == 1){
+
+                                    }
+                                    elseif (auth()->user()->role == 2) {
+                                        
+                                    }
+                                    elseif (auth()->user()->role == 3){
+                                        
+                                    }
                                 @endphp                            
                             "><button class="home-login">Back</button></a>
                         @else
