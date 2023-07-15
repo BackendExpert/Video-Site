@@ -88,11 +88,18 @@
             {{-- All Videoss
             <a href="{{ route('login') }}">login here</a> --}}
 
+
+
             <div class="home-content">
                 <div class="container">
                     <div class="home-title">
                         @auth
-                            
+                            <h3>Welcome to back</h3>
+                            <a href="
+                                @php
+                                    
+                                @endphp                            
+                            "><button class="home-login">Back</button></a>
                         @else
                             <h3>Welcome to Video Site</h3>
                             <a href="{{ route('login') }}"><button class="home-login">Login Here</button></a>
