@@ -25,7 +25,7 @@ Route::get('/', [VideoController::class, 'all_videos']);
 
 // Route::get('/videoOne', [VideoController::class, 'one_video']);
 
-Route::get('/videoOne/show', [VideoController::class, 'one_video'])->name('product.show');
+Route::get('/videoOne/show', [VideoController::class, 'one_video'])->name('videoOne.show');
 
 Route::get('/videos', [VideoController::class]);
 
