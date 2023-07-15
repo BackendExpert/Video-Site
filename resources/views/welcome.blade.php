@@ -97,16 +97,8 @@
                             <h3>Welcome to back</h3>
                             <a href="
                                 @php
-                                    if(auth()->user()->role == 1){
-                                        header('location:admin');
-                                    }
-                                    elseif (auth()->user()->role == 2) {
-                                        header('location:staff');
-                                    }
-                                    elseif (auth()->user()->role == 3){
-                                        header('location:client');
-                                    }
-                                @endphp                            
+                                    if()   
+                                @endphp
                             "><button class="home-login">Back</button></a>
                         @else
                             <h3>Welcome to Video Site</h3>
