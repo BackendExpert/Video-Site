@@ -1,1 +1,4 @@
 @include('header')
+
+
+@include('../footer')
