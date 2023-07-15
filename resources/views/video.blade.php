@@ -2,5 +2,4 @@
 
 </div>
 
-
 @include('layouts.footer')
