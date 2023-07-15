@@ -95,13 +95,7 @@
                     <div class="home-title">
                         @auth
                             <h3>Welcome to back</h3>
-                            <a href="
-                                @php
-                                    if(auth()->user()->role == 1){
-                                        {{ route('admin') }}
-                                    }   
-                                @endphp
-                            "><button class="home-login">Back</button></a>
+                            <a href="{{  URL::previous() }}"><button class="home-login">Back</button></a>
                         @else
                             <h3>Welcome to Video Site</h3>
                             <a href="{{ route('login') }}"><button class="home-login">Login Here</button></a>
