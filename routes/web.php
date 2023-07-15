@@ -25,6 +25,8 @@ Route::get('/', [VideoController::class, 'all_videos']);
 
 Route::get('/videoOne', [VideoController::class, 'one_video']);
 
+Route::get('/videos', [VideoController::class]);
+
 Auth::routes([
     'verify' => true
 ]);
