@@ -1,4 +1,4 @@
 @include('header')
 
 
-@include('../footer')
+@include('layouts.footer')
