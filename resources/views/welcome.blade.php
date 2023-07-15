@@ -109,7 +109,7 @@
                     <div class="home-body">
                         @auth
                             @foreach ($video as $vid)
-                                <a href="{{ url('/videoOne') }}" class="one-video-link">
+                                <a href="{{  url('/videos/' . $vid->id) }}" class="one-video-link">
                                     <div class="one-video">
                                         <div class="row">
                                             <div class="col-lg-4">
