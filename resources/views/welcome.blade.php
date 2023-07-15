@@ -94,7 +94,7 @@
                 <div class="container">
                     <div class="home-title">
                         @auth
-                            <h3>Welcome to back</h3>
+                            <h3>Welcome back</h3>
                             <a href="{{  URL::previous() }}"><button class="home-login">Back</button></a>
                         @else
                             <h3>Welcome to Video Site</h3>
