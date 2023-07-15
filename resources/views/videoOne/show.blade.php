@@ -8,7 +8,7 @@
 
 <div class="container">
     <div class="one-video">
-        <a href="{{ url(welcome) }}">Back</a>
+        <a href="{{ url('') }}"><button class="btn btn-primary">Back</button></a>
     </div>
 </div>
 
