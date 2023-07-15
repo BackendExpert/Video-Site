@@ -8,7 +8,7 @@
 
 <div class="container">
     <div class="one-video">
-        
+        {{ $video-> }}
     </div>
 </div>
 
