@@ -30,6 +30,7 @@
                 <h5>{{ $video->created_at }}</h5>
             </div>
         </div>
+        <hr>
         
 
     </div>
