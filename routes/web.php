@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\VideoController;
+use App\Http\Controllers\VideoViewController;
 
 /*
 |--------------------------------------------------------------------------
@@ -51,4 +52,4 @@ Route::resource("/users", UserController::class);
 
 Route::resource('/videos', VideoController::class);
 
-Route::resource('/videoOne', VideoController::class);
+Route::resource('/videoOne', VideoViewController::class);
