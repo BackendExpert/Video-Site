@@ -10,7 +10,8 @@ class VideoViewController extends Controller
 
     public function show(string $id)
     {
-        
+        $video = VideoM::find($id);
+        return view('/videos.show')->with('video', $video);    
     }
 
     /**
