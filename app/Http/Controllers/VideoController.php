@@ -62,6 +62,10 @@ class VideoController extends Controller
         return view('/videos.show')->with('video', $video);
     }
 
+    public function one_video(){
+        return view('videoOne');
+    }
+
     /**
      * Show the form for editing the specified resource.
      */
@@ -110,7 +114,4 @@ class VideoController extends Controller
         return view('welcome', compact('video'));
     }
 
-    public function one_video(){
-        return view('videoOne');
-    }
 }
