@@ -97,7 +97,9 @@
                             <h3>Welcome to back</h3>
                             <a href="
                                 @php
-                                    if()   
+                                    if(auth()->user()->role == 1){
+                                        {{ route('admin') }}
+                                    }   
                                 @endphp
                             "><button class="home-login">Back</button></a>
                         @else
