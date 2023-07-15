@@ -11,7 +11,7 @@ class VideoViewController extends Controller
      */
     public function index()
     {
-        //
+        
     }
 
     /**
