@@ -31,7 +31,8 @@
             </div>
         </div>
         <hr>
-        
+        <h4>Description</h4>
+        <p>{{ $video-> }}</p>
 
     </div>
 </div>
