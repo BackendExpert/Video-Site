@@ -23,7 +23,9 @@ use App\Http\Controllers\VideoController;
 
 Route::get('/', [VideoController::class, 'all_videos']);
 
-Route::get('/videoOne', [VideoController::class, 'one_video']);
+// Route::get('/videoOne', [VideoController::class, 'one_video']);
+
+Route::resource('/videoOne', VideoController::class, 'one_video');
 
 Auth::routes([
     'verify' => true
