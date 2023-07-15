@@ -17,6 +17,7 @@
             <source src="{{ URL::asset("$video->video") }}" type="video/mp4">
             Your browser does not support HTML video.
         </video>
+        <h3>{{ $video->video_title }}</h3>
 
     </div>
 </div>
