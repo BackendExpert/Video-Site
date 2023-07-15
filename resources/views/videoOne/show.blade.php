@@ -32,7 +32,7 @@
         </div>
         <hr>
         <h4>Description</h4>
-        <p>{{ $video-> }}</p>
+        <p>{{ $video->description }}</p>
 
     </div>
 </div>
