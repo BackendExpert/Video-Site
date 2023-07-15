@@ -7,6 +7,9 @@
     .view-video{
         width: 100%;
     }
+    .add-time{
+        text-align: right;
+    }
 </style>
 
 <div class="container">
@@ -23,7 +26,7 @@
             <div class="col-lg-6">
                 <h5>Uploader : {{ $video->uploader }}</h5>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 add-time">
                 <h5>{{ $video->created_at }}</h5>
             </div>
         </div>
