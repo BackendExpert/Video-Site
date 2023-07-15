@@ -111,6 +111,6 @@ class VideoController extends Controller
     }
 
     public function one_video(){
-        return view('video');
+        return view('videoOne');
     }
 }
