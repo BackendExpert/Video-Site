@@ -56,6 +56,10 @@
             border-radius: 5px;
             color: white;
         }
+        .one-video-link{
+            text-decoration: none;
+            color: white;
+        }
     </style>
 
     <body class="antialiased">
@@ -105,7 +109,7 @@
                     <div class="home-body">
                         @auth
                             @foreach ($video as $vid)
-                                <a href="">
+                                <a href="" class="one-video-link">
                                     <div class="one-video">
                                         <div class="row">
                                             <div class="col-lg-4">
