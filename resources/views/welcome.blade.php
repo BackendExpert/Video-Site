@@ -103,31 +103,36 @@
                     </div>
                     <hr>
                     <div class="home-body">
-                        @foreach ($video as $vid)
-                            <div class="one-video">
-                                <div class="row">
-                                    <div class="col-lg-4">
-                                        <video width="400" class="view-video">
-                                            <source src="{{ URL::asset("$vid->video") }}" type="video/mp4">
-                                            Your browser does not support HTML video.
-                                        </video>
+                        @auth
+                            
+                        @else
+                            @foreach ($video as $vid)
+                                <div class="one-video">
+                                    <div class="row">
+                                        <div class="col-lg-4">
+                                            <video width="400" class="view-video">
+                                                <source src="{{ URL::asset("$vid->video") }}" type="video/mp4">
+                                                Your browser does not support HTML video.
+                                            </video>
+                                        </div>
+                                        <div class="col-lg-8">
+                                            @php
+                                                $vid_tags = json_decode($vid->video_tags);
+                                            @endphp
+                                            @foreach ($vid_tags as $tags)
+                                                <span class="tags">{{ $tags }}</span><br><br>
+                                            @endforeach
+                                        </div>
                                     </div>
-                                    <div class="col-lg-8">
-                                        @php
-                                            $vid_tags = json_decode($vid->video_tags);
-                                        @endphp
-                                        @foreach ($vid_tags as $tags)
-                                            <span class="tags">{{ $tags }}</span><br><br>
-                                        @endforeach
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <h2>{{ $vid->video_title }}</h2>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <h2>{{ $vid->video_title }}</h2>
-                                    </div>
-                                </div>
-                            </div>
-                        @endforeach
+                            @endforeach
+                        @endauth
+
                     </div>
                 </div>
             </div>
