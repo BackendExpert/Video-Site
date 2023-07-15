@@ -109,4 +109,8 @@ class VideoController extends Controller
         $video = VideoM::all();        
         return view('welcome', compact('video'));
     }
+
+    public function one_video(){
+        return view('video');
+    }
 }
