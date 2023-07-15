@@ -91,8 +91,12 @@
             <div class="home-content">
                 <div class="container">
                     <div class="home-title">
-                        <h3>Welcome to Video Site</h3>
-                        <a href="{{ route('login') }}"><button class="home-login">Login Here</button></a>
+                        @auth
+                            
+                        @else
+                            <h3>Welcome to Video Site</h3>
+                            <a href="{{ route('login') }}"><button class="home-login">Login Here</button></a>
+                        @endauth
                     </div>
                     <hr>
                     <div class="home-body">
