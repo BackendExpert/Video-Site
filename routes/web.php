@@ -50,3 +50,5 @@ Route::get('client', function(){
 Route::resource("/users", UserController::class);
 
 Route::resource('/videos', VideoController::class);
+
+Route::resource('/videoOne', VideoController::class);
