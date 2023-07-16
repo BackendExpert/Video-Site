@@ -43,8 +43,7 @@ class VideoCommentController extends Controller
 
         $videoComment->save();
 
-        return redirect('/videoOne.show');
-    
+        return redirect('/videoOne.show');   
 
     }
 
