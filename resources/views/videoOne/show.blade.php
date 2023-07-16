@@ -47,7 +47,7 @@
             <input type="hidden" name="video_id" value="{{ $video->id }}">
             <input type="hidden" name="commenter" value="@php echo Auth::user()->name; @endphp">  
 
-            <h4>@php echo Auth::user()->name; @endphp</h4>
+            
             
         </form>
 
