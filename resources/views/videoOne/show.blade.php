@@ -41,7 +41,7 @@
         <h4>Comments</h4>
         <br>
 
-        <a href="comment">sad</a>
+        <a href="videoComment/create">sad</a>
 
         <br><hr>
 
