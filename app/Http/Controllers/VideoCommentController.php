@@ -36,6 +36,8 @@ class VideoCommentController extends Controller
 
         $videoComment = new VideoCommentM;
         $videoComment->video_id = $request->video_id;
+        $videoComment->commenter = $request->commenter;
+        $videoComment->comment = $request->comment;
 
     }
 
