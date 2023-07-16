@@ -15,6 +15,10 @@ class VideoViewController extends Controller
         return view('/videoOne.show')->with('video_one', $video_one);    
     }
 
+    public function userCommment(string $id){
+        $Comment = VideoCommentM::find($id);
+        return view('/videoOne.show')->with('Comment', $Comment);    
+    }
 
 
     public function store(Request $request){
