@@ -14,7 +14,7 @@ class VideoCommentM extends Model
         'video_id',
         'commenter',
         'comment',
-        'created_at',
+        'is_private',
         'updated_at',
     ];
 }
