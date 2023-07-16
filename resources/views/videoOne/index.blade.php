@@ -41,7 +41,7 @@
         <h4>Comments</h4>
         <br>
 
-        <a href="{{ url('comment') }}"><button class="btn btn-success">Add New Comment</button></a>
+        <a href="{{ url('/comment') }}"><button class="btn btn-success">Add New Comment</button></a>
 
         <br><hr>
 
