@@ -27,7 +27,7 @@ use App\Http\Controllers\VideoViewController;
 
 Route::get('/', [VideoController::class, 'all_videos']);
 
-Route::get('/welcome', [VideoController::class, 'all_videos']);
+// Route::get('/we', [VideoController::class, 'all_videos']);
 
 // Route::get('/videoOne', [VideoController::class, 'one_video']);
 

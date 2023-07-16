@@ -18,7 +18,7 @@
         <form action="{{ url('/welcome') }}" method="post">
             @csrf
 
-            <input type="submit" value="hi" class="btn btn-successs">
+            <input type="submit" value="hi" class="btn btn-success">
         </form>
     </div>
 </div>
