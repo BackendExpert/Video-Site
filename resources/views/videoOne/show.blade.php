@@ -53,7 +53,7 @@
             </ul>
         @endif
 
-        <form action="@php $_SERVER['PHP_SELF'] @endphp" method="post">
+        <form action="" method="post">
             @csrf
             @method('PATCH')
         <h5>New Comment</h5>
