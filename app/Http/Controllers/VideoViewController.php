@@ -14,4 +14,8 @@ class VideoViewController extends Controller
         return view('/videoOne.show')->with('video_one', $video_one);    
     }
 
+    public function store(){
+        
+    }
+
 }
