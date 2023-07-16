@@ -13,7 +13,7 @@ class VideoCommentM extends Model
     protected $fillable = [       
         'video_id',
         'commenter',
-        'description',
+        'comment',
         'created_at',
         'updated_at',
     ];
