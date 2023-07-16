@@ -45,7 +45,8 @@
             @csrf
             
             <input type="hidden" name="commenter" value="@php echo Auth::user()->name; @endphp">
-            <p>@php echo Auth::user()->name; @endphp</p>
+            {{-- <p>@php echo Auth::user()->name; @endphp</p> --}}
+            <input type="hidden" name="">
 
 
             <input type="submit" value="Comment" class="btn btn-success">
