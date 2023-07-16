@@ -35,6 +35,9 @@
         <p>{{ $video->description }}</p>
 
         <hr>
+        <h4>Comments</h4>
+        <br>
+        
 
     </div>
 </div>
