@@ -17,15 +17,15 @@ class VideoViewController extends Controller
 
     public function store(Request $request){
         $this->validate($request, [
-            'commenter' => 'required',
             'video_id' => 'required',
+            'commenter' => 'required',
             'comment' => 'required',
             'is_private' => 'required',
         ]);
 
         $video_comment = new VideoCommentM;
-        $video_comment->commenter = $request->commenter;
         $video_comment->video_id = $request->video_id;
+        $video_comment->commenter = $request->commenter;
         $video_comment->comment = $request->comment;
         $video_comment->is_private = $request->is_private;
 
