@@ -39,6 +39,7 @@ class VideoCommentController extends Controller
         $videoComment->video_id = $request->video_id;
         $videoComment->commenter = $request->commenter;
         $videoComment->comment = $request->comment;
+        $videoComment->is_private =$request->is_private;
     
 
     }
