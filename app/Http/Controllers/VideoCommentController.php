@@ -25,7 +25,6 @@ class VideoCommentController extends Controller
         $video = VideoM::find($id);
         return view('/videoComment/create')->with('video', $video);        
     }
-
     
 
     /**
@@ -57,7 +56,7 @@ class VideoCommentController extends Controller
      */
     public function show(string $id)
     {
-        //
+        
     }
 
     /**
