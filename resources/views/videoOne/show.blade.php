@@ -48,6 +48,7 @@
             <input type="hidden" name="commenter" value="@php echo Auth::user()->name; @endphp">  
 
             <textarea name="comment" id="" cols="30" rows="10" class="form-control" style="resize: none;"></textarea>
+            <input type="hidden" name="is_private" value="0">
             
         </form>
 
