@@ -23,7 +23,8 @@
                 <div class="col-lg-12">
                     <label for="Commeter">Commeter</label>
                     <input type="text" name="commenter" id="" class="form-control" value="@php echo Auth::user()->name; @endphp" disabled>
-                    <input type="hidden" name="uploader" value="@php echo Auth::user()->name; @endphp">
+                    <input type="hidden" name="commenter" value="@php echo Auth::user()->name; @endphp">
+                    <input type="hidden" name="video_id" value="">
                 </div>
             </div>
 
