@@ -55,4 +55,5 @@ Route::resource('/videos', VideoController::class);
 
 Route::resource('/videoOne', VideoViewController::class);
 
-Route::get('/videoOne/comment', [VideoCommentController::class, 'create'])->name('comment');
+
+
