@@ -18,7 +18,8 @@ class VideoViewController extends Controller
         $this->validate($request, [
             'commenter' => 'required',
             'video_id' => 'required',
-            
+            'comment' => 'required',
+            ''
         ]);
 
         return redirect()->back();
