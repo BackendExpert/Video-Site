@@ -53,7 +53,7 @@
             </ul>
         @endif
 
-        <form action="@php @endphp" method="post">
+        <form action="@php $_SERVER['PHP_SELF'] @endphp" method="post">
             @csrf
         <h5>New Comment</h5>
             <input type="hidden" name="video_id" value="{{ $video->id }}">
