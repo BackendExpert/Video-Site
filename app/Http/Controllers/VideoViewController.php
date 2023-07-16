@@ -16,8 +16,8 @@ class VideoViewController extends Controller
 
     public function store(Request $request){
         $this->validate($request, [
-            "commenter" => "required",
-            ""
+            'commenter' => 'required',
+            
         ]);
 
         return redirect()->back();
