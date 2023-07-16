@@ -62,10 +62,7 @@ class VideoController extends Controller
         return view('/videos.show')->with('video', $video);
     }
 
-    public function one_video(string $id){
-        $video_one = VideoM::find($id);
-        return view('/videoOne.show')->with('video_one', $video_one);
-    }
+
 
     /**
      * Show the form for editing the specified resource.
