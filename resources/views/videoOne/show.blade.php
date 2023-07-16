@@ -52,7 +52,7 @@
 
             <textarea name="comment" cols="30" rows="10" class="form-control" style="resize: none;"></textarea>
             <input type="hidden" name="is_private" value="0">
-            
+
             <br>
             <input type="submit" value="Comment" class="btn btn-success">
         </form>
@@ -60,6 +60,8 @@
         {{-- <a href="{{ url('videoComment/create') }}"><button class="btn btn-success">Add New Comment</button></a> --}}
 
         <br><hr>
+
+        
 
     </div>
 </div>
