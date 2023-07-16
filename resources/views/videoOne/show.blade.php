@@ -46,7 +46,8 @@
             
             <input type="hidden" name="commenter" value="@php echo Auth::user()->name; @endphp">
             {{-- <p>@php echo Auth::user()->name; @endphp</p> --}}
-            <input type="hidden" name="">
+            <input type="hidden" name="video_id" value="{{ $video_one->id }}">
+            <p>{{ $video_one->id }}</p>
 
 
             <input type="submit" value="Comment" class="btn btn-success">
