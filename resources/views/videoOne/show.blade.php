@@ -50,7 +50,7 @@
             {{-- <p>{{ $video_one->id }}</p> --}}
 
             <textarea name="comment" cols="30" rows="10" class="form-control" style="resize: none;"></textarea>
-
+            <br>
             <input type="submit" value="Comment" class="btn btn-success">
         </form>
 
