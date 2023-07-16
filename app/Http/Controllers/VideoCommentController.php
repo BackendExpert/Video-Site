@@ -40,6 +40,10 @@ class VideoCommentController extends Controller
         $videoComment->commenter = $request->commenter;
         $videoComment->comment = $request->comment;
         $videoComment->is_private =$request->is_private;
+
+        $videoComment->save();
+
+        return 
     
 
     }
