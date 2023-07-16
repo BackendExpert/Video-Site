@@ -23,7 +23,11 @@ use App\Http\Controllers\VideoViewController;
 //     return view('welcome');
 // });
 
+
+
 Route::get('/', [VideoController::class, 'all_videos']);
+
+Route::get('/welcome', [VideoController::class, 'all_videos']);
 
 // Route::get('/videoOne', [VideoController::class, 'one_video']);
 

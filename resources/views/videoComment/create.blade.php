@@ -15,7 +15,7 @@
         <hr>
         <br>
 
-        <form action="{{ url('') }}" method="post">
+        <form action="{{ url('/welcome') }}" method="post">
             @csrf
 
             <input type="submit" value="hi" class="btn btn-successs">
