@@ -61,7 +61,7 @@
 
         <br><hr>
 
-        <p>New Comment  </p>
+        <p>New Comment {{ $comment->commenter }} </p>
 
     </div>
 </div>
