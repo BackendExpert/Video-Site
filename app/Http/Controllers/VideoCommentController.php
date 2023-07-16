@@ -43,7 +43,7 @@ class VideoCommentController extends Controller
 
         $videoComment->save();
 
-        return 
+        return redirect()
     
 
     }
