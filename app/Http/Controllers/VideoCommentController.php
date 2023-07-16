@@ -32,6 +32,7 @@ class VideoCommentController extends Controller
             'video_id' => 'required',
             'commenter' => 'required',
             'comment' => 'required',
+            'is_private' => 'required',
         ]);
 
         $videoComment = new VideoCommentM;
