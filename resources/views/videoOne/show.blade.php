@@ -19,10 +19,10 @@
     <div class="one-video">
         <a href="{{ url('') }}"><button class="btn btn-primary">Back</button></a><br>
         <hr><br>
-        {{-- <video  class="view-video" controls>
+        <video  class="view-video" controls>
             <source src="{{ URL::asset("$video_one->video") }}" type="video/mp4">
             Your browser does not support HTML video.
-        </video> --}}
+        </video>
         <hr>
         <h3>{{ $video_one->video_title }}</h3>
         <div class="row">
