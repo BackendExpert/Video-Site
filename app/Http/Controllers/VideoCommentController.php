@@ -35,7 +35,7 @@ class VideoCommentController extends Controller
         ]);
 
         $videoComment = new VideoCommentM;
-        $videoComment->video_id 
+        $videoComment->video_id = $request->video_id;
 
     }
 
