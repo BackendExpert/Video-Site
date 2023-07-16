@@ -2,8 +2,16 @@
 
 @include('header')
 
+<style>
+    .comment-content{
+        padding: 40px 0;
+    }
+</style>
+
 <div class="container">
-    ha
+    <div class="comment-content">
+        hii
+    </div>
 </div>
 
 @include('layouts.footer')
