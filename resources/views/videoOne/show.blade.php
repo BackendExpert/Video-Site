@@ -41,7 +41,7 @@
         <h4>Comments</h4>
         <br>
 
-        <form action="{{ url('') }}" method="post">
+        <form action="{{ url('videoOne') }}" method="post">
             @csrf
             @method("")
             
