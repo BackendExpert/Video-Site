@@ -14,8 +14,10 @@ class VideoViewController extends Controller
         return view('/videoOne.show')->with('video_one', $video_one);    
     }
 
-    public function store(){
-        $this->validate($)
+    public function store(Request $request){
+        $this->validate($request, [
+
+        ]);
 
         return redirect()->back();
     }
