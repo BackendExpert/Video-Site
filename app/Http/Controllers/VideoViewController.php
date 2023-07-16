@@ -8,11 +8,6 @@ use App\Models\VideoM;
 class VideoViewController extends Controller
 {
 
-    public function create()
-    {
-        return redirect('/videoOne/comment');
-    }
-
     public function show(string $id)
     {
         $video_one = VideoM::find($id);
