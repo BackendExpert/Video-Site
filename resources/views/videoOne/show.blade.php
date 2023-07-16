@@ -48,6 +48,7 @@
             {{-- <p>@php echo Auth::user()->name; @endphp</p> --}}
             <input type="hidden" name="video_id" value="{{ $video_one->id }}">
             {{-- <p>{{ $video_one->id }}</p> --}}
+            <input type="hidden" name="is_private" value="0">
 
             <textarea name="comment" cols="30" rows="10" class="form-control" style="resize: none;"></textarea>
             <br>
