@@ -5,7 +5,6 @@ namespace App\Http\Controllers;
 use App\Models\VideoCommentM;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Redirect;
-use App\Models\VideoM;
 
 class VideoCommentController extends Controller
 {
@@ -20,10 +19,9 @@ class VideoCommentController extends Controller
     /**
      * Show the form for creating a new resource.
      */
-    public function comment(string $id)
-    {   
-        $video_comment = VideoM::find($id);
-        return view('/videoOne/comment')->with('video_comment', $video_comment);
+    public function create()
+    {
+        return view('/videoOne/comment');
     }
 
     /**
