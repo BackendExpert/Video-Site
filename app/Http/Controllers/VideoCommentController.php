@@ -23,8 +23,10 @@ class VideoCommentController extends Controller
     public function create(string $id)
     {
         $video = VideoM::find($id);
-        return view('/videoComment/create')->with('video', $video);
+        return view('/videoComment/create')->with('video', $video);        
     }
+
+    
 
     /**
      * Store a newly created resource in storage.
