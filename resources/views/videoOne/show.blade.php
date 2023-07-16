@@ -42,8 +42,9 @@
         <br>
 
         <form action="{{ url('/videoOne.show') }}" method="post">
-        <h5>New Comment</h5>
             @csrf
+        <h5>New Comment</h5>
+            
         </form>
 
 
