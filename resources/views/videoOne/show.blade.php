@@ -44,7 +44,7 @@
         <form action="{{ url('videoOne') }}" method="post">
             @csrf
             
-            <input type="hidden" name="commenter" value="">
+            <input type="hidden" name="commenter" value="@php echo Auth::user()->name; @endphp">
 
 
 
