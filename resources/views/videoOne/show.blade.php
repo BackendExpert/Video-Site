@@ -48,9 +48,7 @@
 @include('layouts.footer')
 
 @else
-    @php
-        header("location:")
-    @endphp
+<script>window.location = "/";</script>
 @endauth
 
 
