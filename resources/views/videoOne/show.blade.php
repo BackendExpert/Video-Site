@@ -41,7 +41,7 @@
         <h4>Comments</h4>
         <br>
 
-        <a href="/videoComment/create">sad</a>
+        <a href="/videoComment/create"><button class="btn btn-success">Add New Comment</button></a>
 
         <br><hr>
 
