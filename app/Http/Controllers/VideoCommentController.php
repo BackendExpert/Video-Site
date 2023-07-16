@@ -21,7 +21,7 @@ class VideoCommentController extends Controller
      */
     public function create()
     {
-        return view('/videoOne/comment');
+        return view('/videoComment/create');
     }
 
     /**
