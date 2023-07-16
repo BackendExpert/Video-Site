@@ -20,10 +20,10 @@ class VideoCommentController extends Controller
     /**
      * Show the form for creating a new resource.
      */
-    public function create()
+    public function create(string $id)
     {
-
-        return view('/videoComment/create');
+        $video = VideoM::find($id);
+        return view('/videoComment/create')->with('video', $video);
     }
 
     /**
