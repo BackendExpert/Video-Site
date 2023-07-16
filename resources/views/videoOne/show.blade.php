@@ -49,6 +49,7 @@
             <input type="hidden" name="video_id" value="{{ $video_one->id }}">
             {{-- <p>{{ $video_one->id }}</p> --}}
 
+            <textarea name="comment" cols="30" rows="10" class="form-control" style="resize: none;"></textarea>
 
             <input type="submit" value="Comment" class="btn btn-success">
         </form>
