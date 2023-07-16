@@ -8,7 +8,7 @@ use App\Models\VideoM;
 class VideoViewController extends Controller
 {
 
-    public function comment()
+    public function create()
     {
         return redirect('/videoOne/comment');
     }
