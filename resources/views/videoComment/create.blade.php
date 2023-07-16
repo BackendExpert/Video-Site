@@ -14,6 +14,8 @@
         <br>
         <hr>
         <br>
+
+        <form action="" method="post"></form>
     </div>
 </div>
 
