@@ -57,7 +57,7 @@ class VideoCommentController extends Controller
      */
     public function show(string $id)
     {
-        $comment = DB::table('videos__comments')->select('video_id', $id);
+
     }
 
     /**
