@@ -64,7 +64,7 @@ class VideoController extends Controller
 
     public function one_video(string $id){
         $video_one = VideoM::find($id);
-        return view('/videoOne.index')->with('video_one', $video_one);
+        return view('/videoOne.show')->with('video_one', $video_one);
     }
 
     /**
