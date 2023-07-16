@@ -23,7 +23,9 @@ class VideoViewController extends Controller
             'is_private' => 'required',
         ]);
 
-        $video_comment = 
+        $video_comment = new VideoCommentM;
+        $video_comment = $request->commenter;
+        
 
         return redirect()->back();
     }
