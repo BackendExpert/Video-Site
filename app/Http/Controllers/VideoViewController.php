@@ -14,7 +14,6 @@ class VideoViewController extends Controller
     public function show(string $id)
     {
         $video_one = VideoM::find($id);
-        // $comment = VideoCommentM::find($id);
 
         $all = DB::select("select * from videos__comments where video_id=".$id);
         return $all;
