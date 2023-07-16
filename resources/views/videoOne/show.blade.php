@@ -43,6 +43,7 @@
 
         <form action="{{ url('') }}" method="post">
             @csrf
+            @method("")
             
             <input type="submit" value="Comment" class="btn btn-success">
         </form>
