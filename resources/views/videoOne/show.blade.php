@@ -40,6 +40,7 @@
         <hr>
         <h4>Comments</h4>
         <br>
+        <form action="{{ url('/videoOne.show') }}" method="post"></form>
 
 
     </div>
