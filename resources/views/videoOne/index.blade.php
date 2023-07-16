@@ -24,7 +24,7 @@
             Your browser does not support HTML video.
         </video>
         <hr>
-        <h3>{{ $video->video_title }}</h3>
+        <h3>{{ $video_one->video_title }}</h3>
         <div class="row">
             <div class="col-lg-6">
                 <h5>Uploader : {{ $video_one->uploader }}</h5>
