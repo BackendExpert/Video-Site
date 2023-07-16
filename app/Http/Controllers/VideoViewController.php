@@ -15,9 +15,9 @@ class VideoViewController extends Controller
     {
         $video_one = VideoM::find($id);
 
-        $all = VideoCommentM::select(DB::raw("select * from videos__comments where video_id=".$id));
-        return view('/videoOne.show')->with('all', $all);
-        // return view('/videoOne.show')->with('video_one', $video_one);    
+        // $all = VideoCommentM::select(DB::raw("select * from videos__comments where video_id=".$id));
+        // return view('/videoOne.show')->with('all', $all);
+        return view('/videoOne.show')->with('video_one', $video_one);    
     }
 
     public function store(Request $request){
