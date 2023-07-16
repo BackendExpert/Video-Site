@@ -60,5 +60,3 @@ Route::resource('/videoOne', VideoViewController::class);
 Route::resource('/videoComment', VideoCommentController::class);
 
 
-
-
