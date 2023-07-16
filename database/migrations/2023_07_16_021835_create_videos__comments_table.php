@@ -16,7 +16,7 @@ return new class extends Migration
             $table->integer('video_id');
             $table->string('commenter');
             $table->longText('comment');
-            $table->integer('is_private');
+            $table->integer('is_private')->default(0);;
             $table->timestamps();
         });
     }
