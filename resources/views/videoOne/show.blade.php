@@ -1,3 +1,5 @@
+@auth
+
 @include('header')
 
 <style>
@@ -12,7 +14,7 @@
     }
 </style>
 
-@auth
+
 <div class="container">
     <div class="one-video">
         <a href="{{ url('') }}"><button class="btn btn-primary">Back</button></a><br>
@@ -45,7 +47,12 @@
 
 @include('layouts.footer')
 
+@else
+    @php
+        header("location:")
+    @endphp
 @endauth
+
 
 
 
