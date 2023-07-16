@@ -53,7 +53,7 @@
             </ul>
         @endif
 
-        <form action="{{ url('videos/'. $video->id) }}" method="post">
+        <form action="{{ url('videoOne/show/'. $video->id) }}" method="post">
             @csrf
             @method('PATCH')
         <h5>New Comment</h5>
