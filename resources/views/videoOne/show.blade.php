@@ -61,7 +61,7 @@
 
         <br><hr>
 
-        <p>New Comment</p>
+        <p>New Comment {{  }} </p>
 
     </div>
 </div>
