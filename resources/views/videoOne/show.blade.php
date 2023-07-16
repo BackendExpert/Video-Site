@@ -17,7 +17,7 @@
 
 <div class="container">
     <div class="one-video">
-        {{-- <a href="{{ url('') }}"><button class="btn btn-primary">Back</button></a><br>
+        <a href="{{ url('') }}"><button class="btn btn-primary">Back</button></a><br>
         <hr><br>
         <video  class="view-video" controls>
             <source src="{{ URL::asset("$video_one->video") }}" type="video/mp4">
@@ -35,7 +35,7 @@
         </div>
         <hr>
         <h4>Description</h4>
-        <p>{{ $video_one->description }}</p> --}}
+        <p>{{ $video_one->description }}</p>
 
         <hr>
         <h4>Comments</h4>
@@ -44,9 +44,9 @@
         <form action="{{ url('videoOne') }}" method="post">
             @csrf
             
-            {{-- <input type="hidden" name="commenter" value="@php echo Auth::user()->name; @endphp">
+            <input type="hidden" name="commenter" value="@php echo Auth::user()->name; @endphp">
 
-            <input type="hidden" name="video_id" value="{{ $video_one->id }}"> --}}
+            <input type="hidden" name="video_id" value="{{ $video_one->id }}">
 
             
 
@@ -60,7 +60,6 @@
         {{-- <a href="{{ url('videoComment/create') }}"><button class="btn btn-success">Add New Comment</button></a> --}}
 
         <br><hr>
-        <p>comment </p>
         {{-- <p>New Comment {{ $comment->commenter }} </p> --}}
 
     </div>
