@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\VideoCommentM;
 use Illuminate\Http\Request;
 
 class VideoCommentController extends Controller
