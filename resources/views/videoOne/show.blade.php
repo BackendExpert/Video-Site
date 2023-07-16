@@ -53,7 +53,7 @@
             </ul>
         @endif
 
-        <form action="{{ url('/') }}" method="post">
+        <form action="{{ url('welcome') }}" method="post">
             @csrf
         <h5>New Comment</h5>
             <input type="hidden" name="video_id" value="{{ $video->id }}">
