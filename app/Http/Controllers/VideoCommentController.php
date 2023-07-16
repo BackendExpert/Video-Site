@@ -28,7 +28,9 @@ class VideoCommentController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $this->validate([
+
+        ]);
     }
 
     /**
