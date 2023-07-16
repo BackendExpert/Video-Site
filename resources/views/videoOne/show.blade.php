@@ -44,7 +44,7 @@
         <form action="{{ url('/videoOne.show') }}" method="post">
             @csrf
         <h5>New Comment</h5>
-            <input type="hidden" name="">
+            <input type="hidden" name="video_id" value="{{ $video->id }}">
         </form>
 
 
