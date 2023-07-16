@@ -55,6 +55,7 @@
 
         <form action="@php $_SERVER['PHP_SELF'] @endphp" method="post">
             @csrf
+            @method('PATCH')
         <h5>New Comment</h5>
             <input type="hidden" name="video_id" value="{{ $video->id }}">
             <input type="hidden" name="commenter" value="@php echo Auth::user()->name; @endphp">  
