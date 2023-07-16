@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\VideoCommentM;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Redirect;
+use App\Models\VideoM;
 
 class VideoCommentController extends Controller
 {
@@ -21,6 +22,7 @@ class VideoCommentController extends Controller
      */
     public function create()
     {
+
         return view('/videoComment/create');
     }
 
