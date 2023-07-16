@@ -22,7 +22,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <label for="Commeter">Commeter</label>
-                    <input type="text" name="" id="" class="form-control">
+                    <input type="text" name="commenter" id="" class="form-control" value="@php @endphp">
                 </div>
                 <div class="col-lg-6"></div>
             </div>
