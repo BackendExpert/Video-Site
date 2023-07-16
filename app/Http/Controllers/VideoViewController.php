@@ -25,7 +25,8 @@ class VideoViewController extends Controller
 
         $video_comment = new VideoCommentM;
         $video_comment->commenter = $request->commenter;
-        
+        $video_comment->video_id = $request->video_id;
+        $video_comment->comment = $request->comment;
 
 
         return redirect()->back();
