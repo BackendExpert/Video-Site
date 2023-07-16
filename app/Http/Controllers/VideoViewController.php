@@ -15,7 +15,7 @@ class VideoViewController extends Controller
     }
 
     public function store(){
-        
+        return redirect()->back();
     }
 
 }
