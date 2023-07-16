@@ -99,7 +99,7 @@
                     <div class="home-title">
                         @auth
                             <h3>Welcome back</h3>
-                            <a href="javascript:window.history.back()"><button class="home-login">Back</button></a>
+                            <a href="admin"><button class="home-login">Dashboard</button></a>
                         @else
                             <h3>Welcome to Video Site</h3>
                             <a href="{{ route('login') }}"><button class="home-login">Login Here</button></a>
