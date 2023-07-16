@@ -6,6 +6,7 @@ use App\Models\VideoCommentM;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Redirect;
 use App\Models\VideoM;
+use Illuminate\Support\Facades\DB;
 
 class VideoCommentController extends Controller
 {
@@ -56,7 +57,7 @@ class VideoCommentController extends Controller
      */
     public function show(string $id)
     {
-        
+        $comment = DB::table('videos__comments')->select('video_id', $id);
     }
 
     /**
