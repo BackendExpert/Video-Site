@@ -10,7 +10,7 @@
 
 <div class="container">
     <div class="comment-content">
-        <a href="videoOne/show"><button class="btn btn-primary">Back</button></a>
+        <a href="/videoOne/show"><button class="btn btn-primary">Back</button></a>
     </div>
 </div>
 
