@@ -20,12 +20,11 @@
             @method('PATCH')
 
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-12">
                     <label for="Commeter">Commeter</label>
                     <input type="text" name="commenter" id="" class="form-control" value="@php echo Auth::user()->name; @endphp" disabled>
                     <input type="hidden" name="uploader" value="@php echo Auth::user()->name; @endphp">
                 </div>
-                <div class="col-lg-6"></div>
             </div>
 
             <input type="submit" value="hi" class="btn btn-success">
