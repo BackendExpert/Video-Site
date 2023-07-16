@@ -29,9 +29,7 @@ class VideoViewController extends Controller
         $video_comment->comment = $request->comment;
         $video_comment->is_private = $request->is_private;
 
-        
-
-
+        $video_comment->save();
         return redirect()->back();
     }
 
