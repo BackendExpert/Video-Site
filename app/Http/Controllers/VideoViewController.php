@@ -10,7 +10,7 @@ class VideoViewController extends Controller
 
     public function comment()
     {
-        return view('/videoOne/comment');
+        return redirect('/videoOne/comment');
     }
 
     public function show(string $id)

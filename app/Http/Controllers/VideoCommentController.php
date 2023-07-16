@@ -22,8 +22,8 @@ class VideoCommentController extends Controller
      */
     public function comment(string $id)
     {   
-        $video = VideoM::find($id);
-        return view('/videoOne/comment');
+        $video_comment = VideoM::find($id);
+        return view('/videoOne/comment')->with('video_comment', $video_comment);
     }
 
     /**
