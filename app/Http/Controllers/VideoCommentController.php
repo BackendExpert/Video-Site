@@ -31,6 +31,7 @@ class VideoCommentController extends Controller
         $this->validate($request, [
             'comment' => 'required',
         ]);
+        
     }
 
     /**
