@@ -15,6 +15,8 @@ class VideoViewController extends Controller
     }
 
     public function store(){
+        $this->validate($)
+
         return redirect()->back();
     }
 
