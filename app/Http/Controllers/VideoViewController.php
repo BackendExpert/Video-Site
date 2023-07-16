@@ -19,7 +19,7 @@ class VideoViewController extends Controller
             'commenter' => 'required',
             'video_id' => 'required',
             'comment' => 'required',
-            ''
+            'is_private' => 'required',
         ]);
 
         return redirect()->back();
