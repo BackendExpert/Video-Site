@@ -15,7 +15,11 @@
         <hr>
         <br>
 
-        <form action="{{ url('') }}" method="post"></form>
+        <form action="{{ url('') }}" method="post">
+            @csrf
+
+            <input type="submit" value="hi" class="btn btn-successs">
+        </form>
     </div>
 </div>
 
