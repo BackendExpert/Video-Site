@@ -22,7 +22,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <label for="Commeter">Commeter</label>
-                    <input type="text" name="commenter" id="" class="form-control" value="@php @endphp">
+                    <input type="text" name="commenter" id="" class="form-control" value="@php echo Auth::user()->name; @endphp" disabled>
                 </div>
                 <div class="col-lg-6"></div>
             </div>
