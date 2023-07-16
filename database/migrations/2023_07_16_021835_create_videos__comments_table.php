@@ -13,6 +13,9 @@ return new class extends Migration
     {
         Schema::create('videos__comments', function (Blueprint $table) {
             $table->id();
+            $table->integer('video_id');
+            $table->string('commenter');
+            $table->longText('comment');
             $table->timestamps();
         });
     }
