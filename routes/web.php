@@ -27,8 +27,6 @@ Route::get('/', [VideoController::class, 'all_videos']);
 
 // Route::get('/videoOne', [VideoController::class, 'one_video']);
 
-Route::get('/videoOne/index', [VideoController::class, 'one_video'])->name('videoOne.index');
-
 Route::get('/videos', [VideoController::class]);
 
 Auth::routes([
