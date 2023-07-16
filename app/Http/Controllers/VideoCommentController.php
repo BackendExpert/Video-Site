@@ -29,7 +29,7 @@ class VideoCommentController extends Controller
     public function store(Request $request)
     {
         $this->validate($request, [
-            
+            'video_id' => 'required',
             'comment' => 'required',
         ]);
 
