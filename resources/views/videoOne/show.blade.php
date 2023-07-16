@@ -43,8 +43,11 @@
 
         <form action="{{ url('videoOne') }}" method="post">
             @csrf
-            @method("")
             
+            <input type="hidden" name="commenter" value="">
+
+
+
             <input type="submit" value="Comment" class="btn btn-success">
         </form>
 
