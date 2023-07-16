@@ -15,7 +15,7 @@
         <hr>
         <br>
 
-        <form action="" method="post"></form>
+        <form action="{{ url('') }}" method="post"></form>
     </div>
 </div>
 
