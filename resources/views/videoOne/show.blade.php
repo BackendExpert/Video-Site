@@ -47,7 +47,7 @@
             <input type="hidden" name="video_id" value="{{ $video->id }}">
             <input type="hidden" name="commenter" value="@php echo Auth::user()->name; @endphp">  
 
-            <textarea name="comment" id="" cols="30" rows="10"></textarea>
+            <textarea name="comment" id="" cols="30" rows="10" class="form-control"></textarea>
             
         </form>
 
