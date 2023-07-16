@@ -55,4 +55,4 @@ Route::resource('/videoOne', VideoViewController::class);
 
 Route::resource('/videoComment', VideoCommentController::class);
 
-
+Route::get('videoOne/comment', [VideoCommentController::class, ''])
