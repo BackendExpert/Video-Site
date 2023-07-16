@@ -34,6 +34,8 @@ class VideoCommentController extends Controller
             'comment' => 'required',
         ]);
 
+        $videoComment = 
+
     }
 
     /**
