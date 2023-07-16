@@ -11,6 +11,9 @@
 <div class="container">
     <div class="comment-content">
         <button onclick="history.back()" class="btn btn-primary">Go Back</button>
+        <br>
+        <hr>
+        <br>
     </div>
 </div>
 
