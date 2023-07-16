@@ -34,6 +34,8 @@
         <h4>Description</h4>
         <p>{{ $video->description }}</p>
 
+        <hr>
+
     </div>
 </div>
 
