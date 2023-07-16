@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\VideoM;
+use App\Models\VideoCommentM;
 
 class VideoViewController extends Controller
 {
@@ -21,6 +22,8 @@ class VideoViewController extends Controller
             'comment' => 'required',
             'is_private' => 'required',
         ]);
+
+        $video_comment = 
 
         return redirect()->back();
     }
