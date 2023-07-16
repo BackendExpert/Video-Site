@@ -60,7 +60,7 @@
         {{-- <a href="{{ url('videoComment/create') }}"><button class="btn btn-success">Add New Comment</button></a> --}}
 
         <br><hr>
-
+        <p>comment </p>
         {{-- <p>New Comment {{ $comment->commenter }} </p> --}}
 
     </div>
