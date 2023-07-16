@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\VideoCommentM;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Redirect;
 
 class VideoCommentController extends Controller
 {
@@ -43,8 +44,8 @@ class VideoCommentController extends Controller
 
         $videoComment->save();
 
-        return redirect->back();   
-
+        return Redirect::back();
+        
     }
 
     /**
