@@ -15,7 +15,7 @@
         <hr>
         <br>
 
-        <form action="{{ url('') }}" method="post">
+        <form action="{{ url('/videoComment/create') }}" method="post">
             @csrf
             @method('PATCH')
             <input type="submit" value="hi" class="btn btn-success">
