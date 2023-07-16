@@ -17,8 +17,7 @@ class VideoViewController extends Controller
 
         $all = DB::select("select * from videos__comments where video_id=".$id);
         return $all;
-
-        // return view('/videoOne.show')->with('video_one', $video_one);    
+        return view('/videoOne.show')->with('video_one', $video_one);    
     }
 
     public function store(Request $request){
