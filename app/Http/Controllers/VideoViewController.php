@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\VideoM;
 use App\Models\VideoCommentM;
+use Illuminate\Support\Facades\DB;
+
 
 class VideoViewController extends Controller
 {
@@ -13,7 +15,10 @@ class VideoViewController extends Controller
     {
         $video_one = VideoM::find($id);
         // $comment = VideoCommentM::find($id);
-        return view('/videoOne.show')->with('video_one', $video_one)->with('comment', $comment);    
+
+        $all = DB::select("select * from product");
+
+        return view('/videoOne.show')->with('video_one', $video_one);    
     }
 
     public function store(Request $request){
