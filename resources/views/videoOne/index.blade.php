@@ -43,6 +43,8 @@
 
         <a href="{{ url('comment') }}"><button class="btn btn-success">Add New Comment</button></a>
 
+        <br><hr>
+
     </div>
 </div>
 
