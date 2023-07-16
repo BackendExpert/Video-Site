@@ -15,9 +15,9 @@
         <hr>
         <br>
 
-        <form action="{{ url('/welcome') }}" method="post">
+        <form action="{{ url('') }}" method="post">
             @csrf
-
+            @method('PATCH')
             <input type="submit" value="hi" class="btn btn-success">
         </form>
     </div>
