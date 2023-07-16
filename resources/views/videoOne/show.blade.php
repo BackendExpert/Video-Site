@@ -45,7 +45,7 @@
             @csrf
         <h5>New Comment</h5>
             <input type="hidden" name="video_id" value="{{ $video->id }}">
-            <h5>{{ $video->id }}</h5>
+
         </form>
 
 
