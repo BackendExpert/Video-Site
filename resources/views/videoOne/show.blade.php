@@ -45,8 +45,8 @@
             @csrf
         <h5>New Comment</h5>
             <input type="hidden" name="video_id" value="{{ $video->id }}">
-            <input type="hidden" name="commenter" value="{{  }}">  
-
+            <input type="hidden" name="commenter" value="@php echo Auth::user()->name; @endphp">  
+            
         </form>
 
 
